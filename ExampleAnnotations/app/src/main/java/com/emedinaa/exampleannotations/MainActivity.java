@@ -37,10 +37,10 @@ public class MainActivity extends AppCompatActivity {
          */
     }
 
-    @MetodoMarcado(description = "Hola Annotation")
+    @MetodoMarcado(description = "Hola Anotaciones")
     public void mensaje()
     {
-        Log.v("MainActivity", "mensaje");
+        Log.v(TAG, "mensaje");
     }
 
     @Override
